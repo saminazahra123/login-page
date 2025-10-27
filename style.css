@@ -15,10 +15,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(images/1757948519914.jpg);
-    background-size: contain;
+    background-image: url(https://i.pinimg.com/736x/2c/d0/e9/2cd0e9013ee028e4ce7545a2fc684327.jpg);
+    background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
 }
 .content {
     width: 400px;
@@ -115,12 +114,6 @@ input[type="checkbox"]{
     height: 15px;
     cursor: pointer;
 }
-/* input::-ms-reveal, */
-/* input:: -ms-clear {
-    display: none;
-} */
-
-
 
 .btnn{
     display: inline-block;
@@ -136,6 +129,11 @@ input[type="checkbox"]{
     cursor: pointer;
     margin-bottom: 30px;
     margin-top: 16px;
+}
+.btnn:hover{
+    background: #eee9e9;
+    color: #061c47;
+
 }
 .button {
     display: flex;
