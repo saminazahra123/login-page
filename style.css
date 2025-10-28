@@ -133,7 +133,6 @@ input[type="checkbox"]{
 .btnn:hover{
     background: #eee9e9;
     color: #061c47;
-
 }
 .button {
     display: flex;
